@@ -92,7 +92,7 @@ class Staff
     {
         System.out.println("-----------Staff Info-----------");
         System.out.println("Staff Name: " + name);
-        System.out.println("ID: " + id);
+        System.out.println("Staff ID: " + id);
     }
     
     void displayIncomeInfo()
