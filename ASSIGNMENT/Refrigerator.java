@@ -3,7 +3,7 @@ public class Refrigerator
     public static void use()
     {
         System.out.println("Making Ais");
-        System.out.println("Help food stay freash longer");
+        System.out.println("Help food stay fresh longer");
     }
     
     public static void open()
