@@ -1,9 +1,14 @@
 public class Refrigerator
-{   
+{       
+    public void special()
+    {
+        System.out.println("Special of this refrigerator:");
+    }
+    
     public static void use()
     {
         System.out.println("Making Ais");
-        System.out.println("Help food stay fresh longer");
+        System.out.println("Help food stay fresh longer"); 
     }
     
     public static void open()
