@@ -2,31 +2,32 @@ public class Refrigerator
 {       
     public void special()
     {
-        System.out.println("Special of this refrigerator:");
+        System.out.println("---Special of this refrigerator---");
     }
     
-    public static void use()
+    public void use()
     {
+        System.out.println("---Refrigreator Use---");
         System.out.println("Making Ais");
         System.out.println("Help food stay fresh longer"); 
     }
     
-    public static void open()
+    public void open()
     {
         System.out.println("Open The Door");
     }
     
-    public static void close()
+    public void close()
     {
         System.out.println("Close The Door");
     }
     
-    public static void tempuratureUp()
+    public void tempuratureUp()
     {
         System.out.println("Temperature Up");
     }
     
-    public static void tempuratureDown()
+    public void tempuratureDown()
     {
         System.out.println("Temperature Down");
     }
