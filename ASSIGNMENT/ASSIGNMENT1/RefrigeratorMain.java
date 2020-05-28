@@ -7,8 +7,7 @@ public class RefrigeratorMain
         SideBySide r2 = new SideBySide();
         TopMountFreezer r3 = new TopMountFreezer();
         BottomMountFreezer r4 = new BottomMountFreezer();
-    
-        System.out.println("---Refrigerator Basic Use---");
+
         r.use();
         System.out.println("---Refrigerator Feature---");
         r.open();
