@@ -1,6 +1,6 @@
-public class BottomMountFreezer extends Refrigerator
+public class BottomMountFreezer extends Refrigerator//inherence
 {
-    private String doorNum = "2";
+    private String doorNum = "2";//encap
     
     public void setDoorNum(String newDoorNum)
     {
@@ -13,7 +13,7 @@ public class BottomMountFreezer extends Refrigerator
     }
     
     @Override
-    public void special()
+    public void special()//oberriding
     {
         super.special();
         System.out.println("The top compartment is for fresh food");
