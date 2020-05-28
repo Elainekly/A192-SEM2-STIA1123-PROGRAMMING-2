@@ -1,6 +1,6 @@
-public class FrenchDoor extends Refrigerator
+public class FrenchDoor extends Refrigerator//inherence
 {   
-    private String doorNum = "more than 2";
+    private String doorNum = "more than 2";//encap
     
     public void setDoorNum(String newDoorNum)
     {
@@ -13,7 +13,7 @@ public class FrenchDoor extends Refrigerator
     }
     
     @Override
-    public void special()
+    public void special()//overiding
     {
         super.special();
         System.out.println("Large capacity");
