@@ -1,6 +1,6 @@
-public class TopMountFreezer extends Refrigerator
+public class TopMountFreezer extends Refrigerator//inherence
 {
-    private String doorNum = "2";
+    private String doorNum = "2";//encap
 
     public void setDoorNum(String newDoorNum)
     {
@@ -13,7 +13,7 @@ public class TopMountFreezer extends Refrigerator
     }
     
     @Override
-    public void special()
+    public void special()//overiding
     {
         super.special();
         System.out.println("Cheaper");
@@ -21,7 +21,7 @@ public class TopMountFreezer extends Refrigerator
         System.out.println("The lower compartment is for fresh food");
     }
     
-    public static void common()
+    public void common()
     {
         System.out.println("Top Mount Refrigerator are the most common type of refrigetation");
     }
