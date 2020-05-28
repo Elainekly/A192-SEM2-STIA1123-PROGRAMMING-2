@@ -1,6 +1,6 @@
-public class SideBySide extends Refrigerator
+public class SideBySide extends Refrigerator//inherence
 {
-    private String doorNum = "2";
+    private String doorNum = "2";//encap
     
     public void setDoorNum(String newDoorNum)
     {
@@ -13,7 +13,7 @@ public class SideBySide extends Refrigerator
     }
     
     @Override
-    public void special()
+    public void special()//Overiding
     {
         super.special();
         System.out.println("Some of this refrigerator has exterior ice and water dispenser in the door");
