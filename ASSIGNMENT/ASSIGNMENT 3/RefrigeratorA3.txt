@@ -1,0 +1,5 @@
+Refrigerator Name	Refrigerator Brand
+Side By Side 342			LG			
+Top Mount 423			Samsung			
+Bottom Mount 4235			Haier			
+Freech Door 765			Samsung			
